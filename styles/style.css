@@ -9,7 +9,7 @@
 	/* выше для экранов больше 1600px отцентрировали весь контент */
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 }
- 
+
 .header {
   display: flex;
   align-items: center;
@@ -20,15 +20,15 @@
 	position: relative;
 	/* выше установили ограничения для секции */
 }
- 
+
 .header__title {
   position: relative;
   line-height: 96px;
   font-size: 102px;
-  font-weight: 600; 
+  font-weight: 600;
   margin-left:64px;
   width: 730px;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .header__subtitle {
@@ -47,7 +47,7 @@
 
 .header__square-pic {
   position: absolute;
-  right: 0; 
+  right: 0;
   top: 64px;
   width: 568px;
   height: 568px;
@@ -103,7 +103,7 @@
 
 .two-columns {
 	display: flex;
-	width: 80%; 
+	width: 80%;
 	justify-content: space-between;
 }
 
@@ -118,7 +118,7 @@
 }
 
 .two-columns__main-text {
-	width: 80%; 
+	width: 80%;
 	min-width: 784px;
 }
 
@@ -198,7 +198,7 @@
 	font-size: 36px;
 	font-weight: normal;
 	text-align: center;
-	
+
 }
 
 .feynman__link {
@@ -238,7 +238,7 @@
 }
 
 .section-subtitle_theme_dark {
-	color: white;	
+	color: white;
 }
 
 .footer {
@@ -263,7 +263,7 @@
 }
 
 .logo__place_footer {
-  display: flex;	
+  display: flex;
 }
 
 .footer__column-heading {
