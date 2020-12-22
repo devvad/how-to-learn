@@ -57,12 +57,23 @@
 .section-title {
 	width: 60%;
 	margin: 0 auto;
+	position: relative;
+	line-height: 1.15;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .section-subtitle {
 	width: 60%;
 	margin: 0 auto;
-	margin-top: 20px ;
+	margin-top: 20px;
+	position: relative;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
 }
 
 .table {
@@ -138,23 +149,6 @@
 	line-height: 34px;
 	font-size: 18px;
 	font-weight: bold;
-}
-
-.section-title {
-	position: relative;
-	line-height: 1.15;
-	font-size: 60px;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.section-subtitle {
-	position: relative;
-	line-height: 34px;
-	font-size: 24px;
-	font-weight: normal;
-	text-align: center;
 }
 
 .table__heading {
