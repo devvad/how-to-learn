@@ -27,7 +27,8 @@
   font-size: 102px;
   font-weight: 600;
   margin-left:64px;
-  width: 730px;
+	max-width: 730px;
+	width: 100%;
   z-index: 1;
 }
 
@@ -37,7 +38,8 @@
   bottom: 30px;
   width: 388px;
   line-height: 25px;
-  font-size: 18px;
+	font-size: 18px;
+	z-index: 1;
 }
 .header__main-illustration {
   position: absolute;
