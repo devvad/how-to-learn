@@ -101,7 +101,8 @@
 	margin-top: 80px;
 }
 
-.logo {
+.logo_place_header {
+	display: flex;
   position: absolute;
   left: 64px;
 	top: 30px;
@@ -259,7 +260,10 @@
 }
 
 .logo__place_footer {
-  display: flex;
+	display: flex;
+	position: absolute;
+  left: 64px;
+	top: 30px;
 }
 
 .footer__column-heading {
