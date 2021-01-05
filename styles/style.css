@@ -66,6 +66,14 @@
   background-color: #2f80ed;
 }
 
+.rotation {
+  animation:spin 20s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform:rotate(360deg); }
+}
+
 .digits {
 	margin: 100px 0;
 }
@@ -360,10 +368,16 @@
 }
 
 .cards__image {
-	position: absolute;
+	display: flex;
 	height: 160px;
 	width: 160px;
 	border-radius: 50%;
+}
+
+.video__iframes {
+	position: relative;
+	display: flex;
+	margin: 50px auto;
 }
 
 .video__iframe {
