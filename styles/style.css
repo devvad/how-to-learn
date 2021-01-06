@@ -18,6 +18,7 @@
   max-height: 756px;
 	background-color: #f2f2f2;
 	position: relative;
+	overflow: hidden;
 	/* выше установили ограничения для секции */
 }
 
@@ -63,15 +64,15 @@
   top: 64px;
   width: 568px;
   height: 568px;
-  background-color: #2f80ed;
+	background-color: #2f80ed;
 }
 
 .rotation {
-  animation:spin 20s linear infinite;
+	animation:spin 20s linear infinite;
 }
 
 @keyframes spin {
-  100% { transform:rotate(360deg); }
+	100% { transform:rotate(360deg); }
 }
 
 .digits {
@@ -467,4 +468,18 @@
 	color: #2f80ed;
 	text-decoration: none;
 	position: absolute;
+}
+
+.resources {
+	margin: 100px auto 217px auto;
+}
+
+.resources__logo-zone {
+	padding-top: 80px;
+	text-align: center;
+}
+
+.resources__logo {
+	width: 270px;
+	height: 38px;
 }
