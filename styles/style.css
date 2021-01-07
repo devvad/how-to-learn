@@ -364,6 +364,7 @@
 .techniques {
 	width: 80%;
 	margin: 0 auto;
+	padding-bottom: 100px;
 }
 
 .cards__title {
@@ -371,6 +372,9 @@
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
+	margin: 0;
+	margin-bottom: 16px;
+	padding: 0;
 }
 
 .cards__description {
@@ -378,28 +382,32 @@
 	font-size: 18px;
 	font-weight: normal;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 .cards {
 	display: grid;
-	grid-template-columns: repeat(3, 2fr);
-	grid-template-rows: repeat(2, 2fr);
-	gap: 100px;
+	grid-template-columns: repeat(3, 240px);
+	grid-gap: 0 100px;
 	margin: 0 auto;
+	width: 920px;
+	padding: 0;
 }
 
 .cards__item {
-	margin-top: 60px;
-	margin-bottom: 43px;
-	box-sizing: border-box;
-	padding: 20px;
-	position: relative;
+	width: 240px;
 }
 
 .cards__image {
 	height: 160px;
 	width: 160px;
+	margin: 60px 40px 43px 40px;
 	border-radius: 50%;
+}
+
+.video {
+	margin: 0 auto;
 }
 
 .video__iframes {
@@ -413,6 +421,7 @@
 .video__iframe {
 	width: 515px;
 	height: 316px;
+	border: 0;
 }
 
 .video__iframe_first-child {
@@ -511,8 +520,10 @@
 }
 
 .resources__logo-zone {
+	width: 1100px;
 	padding-top: 80px;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .resources__logo {
